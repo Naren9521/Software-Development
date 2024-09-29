@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    background-color: #FFF7F4;
+    background-color: #ffffff;
     color: #333;
     height: 100vh;
     display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .main-content .text-content .buttons .get-started {
-    background-color: #000;
+    background-color: rgb(248, 104, 41);
     color: #fff;
 }
 
@@ -101,7 +101,7 @@ body {
 
 /* Additional CSS for the second section */
 .mission-container {
-    padding: 50px 20px;
+    padding: 100px 20px;
     text-align: center;
     background-color: #b0c4c4;
     color: #333;
