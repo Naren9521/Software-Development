@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFF7F4;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo i {
+    margin-right: 10px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+}
+
+.header nav a:hover {
+    color: #000;
+}
+
+.header .join-now {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.main-content .text-content {
+    max-width: 600px;
+}
+
+.main-content .text-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.main-content .text-content p {
+    font-size: 18px;
+    color: #999;
+    margin: 20px 0;
+}
+
+.main-content .text-content .buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-content .text-content .buttons .get-started {
+    background-color: #000;
+    color: #fff;
+}
+
+.main-content .text-content .buttons .unlock-voice {
+    color: #5A8DEE;
+}
+
+.main-content .image-content img {
+    max-width: 100%;
+    height: auto;
+}
