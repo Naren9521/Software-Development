@@ -1,16 +1,15 @@
-body {
-    margin: 0;
-    font-family: 'Happy Monkey', sans-serif;
-    display: flex;
-    height: 100vh;
-    background-color: #d9eaf7;
-}
-p{
+p {
     font-family: 'Nunito';
 }
+/* Container for the sidebar and content */
+.dashboard-page {
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Full viewport height */
+}
+
 .sidebar {
     width: 250px;
-    background-color: #f4d3b3;
+    background-color: #ffccaa; /* Slightly darker peach */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -32,32 +31,38 @@ p{
     color: black;
     font-size: 18px;
 }
+
 .nav-item:hover {
-    background-color: #c2d4f7;
+    background-color: #98c1ff; /* New hover color */
     cursor: pointer;
 }
+
 .sidebar .nav-item:not(.active):hover ~ .nav-item.active {
     opacity: 0;
-    pointer-events: none; /* Prevent clicking on hidden link */
+    pointer-events: none;
     transition: opacity 0.3s ease;
 }
-    
+
 .nav-item i {
     margin-right: 10px;
 }
 
 .nav-item.active {
-    background-color: #7fa7f6;
+    background-color: #7fa7f6; /* Keep the active color */
 }
 
 .logout {
-    background-color: #ff6b3d;
+    background-color: #ff6b3d; /* Strong CTA color */
     color: white;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
     font-size: 18px;
+}
+
+.logout:hover {
+    background-color: #ff5733; /* Hover effect for Logout */
 }
 
 .content {
@@ -84,7 +89,7 @@ p{
 }
 
 .upgrade-btn {
-    background-color: #ff6b3d;
+    background-color: #ff6b3d; /* Same CTA color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -110,6 +115,8 @@ p{
 }
 
 .card-container {
+    background-color: #c8dbff;
+    border-radius: 10px;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +124,7 @@ p{
 }
 
 .card {
-    background-color: #d3d3d3;
+    background-color: #ffffff; /* Clean white card */
     padding: 20px;
     height: 220px;
     width: 330px;
@@ -130,9 +137,10 @@ p{
 }
 
 .card:hover {
-    background-color: #c2d4f7;
+    background-color: #c2d4f7; /* Subtle hover effect */
     cursor: pointer;
 }
+
 .card img.card-icon {
     width: 50px; /* Adjust size as needed */
     height: 50px;
@@ -142,6 +150,6 @@ p{
     margin-right: auto;
 }
 
-.profile:hover{
+.profile:hover {
     cursor: pointer;
 }
