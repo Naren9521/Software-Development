@@ -43,7 +43,7 @@ const MainContent = () => {
             </div>
           </div>
           <div className="image-content">
-            <img src="/images/image3.jpg" alt="Illustration showing personalized learning and feedback" width="600" height="400"></img>
+            <img src="/images/image3.png" alt="Illustration showing personalized learning and feedback" width="600" height="400"></img>
           </div>
         </div>
   

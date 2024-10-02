@@ -71,11 +71,12 @@ p {
 }
 
 .top-bar {
-    height: 9vh;
+    margin-top: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+
+    margin-bottom: 60px;
 }
 
 .heading h1 {
@@ -115,6 +116,7 @@ p {
 }
 
 .card-container {
+    height: 500px;
     background-color: #c8dbff;
     border-radius: 10px;
     padding: 50px;
