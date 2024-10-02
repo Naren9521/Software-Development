@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 body {
     margin: 0;
     font-family: 'Happy Monkey', sans-serif;
@@ -156,11 +158,11 @@ body {
 }
 
 .footer {
+    background-color: #FEF6F4;
     font-family: "Nunito";
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #FFF7F0;
 }
 
 .footer div {
