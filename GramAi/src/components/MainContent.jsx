@@ -1,6 +1,6 @@
 const MainContent = () => {
     return (
-      <div className="container">
+      <div className="containers">
         {/* First main content section */}
         <div className="main-content">
           <div className="text-content">

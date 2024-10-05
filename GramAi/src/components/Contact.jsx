@@ -1,6 +1,5 @@
 import React from 'react';
 import "../assets/styles/contact.css"
-
 const Contact = () => {
   return (
     <div className="contact-container">
@@ -28,4 +27,5 @@ const Contact = () => {
     </div>
   );
 };
+
 export default Contact;

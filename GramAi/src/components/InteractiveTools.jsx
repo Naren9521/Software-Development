@@ -9,7 +9,7 @@ const InteractiveTools = () => {
   };
 
   return (
-    <div className="card-container">
+    <div className="interactive-card-container">
       {activeTool === 'PronunciationTrainer' ? (
         <PronunciationTrainer />
       ) : (
