@@ -1,5 +1,5 @@
 import React from "react";
-import { doSignInWithGoogle } from "../firebase"; // Adjust the path if necessary
+import { doSignInWithGoogle } from "../../firebase";
 import { useNavigate } from 'react-router-dom';  // Import useNavigate for redirection
 import '../assets/styles/googlesignin.css'
 
