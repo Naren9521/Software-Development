@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import InteractiveTools from "./InteractiveTools";
-import Courses from "./courses";
+import Courses from "./Courses";
 import Resources from "./Resources";
 import Progress from "./Progress";
 
