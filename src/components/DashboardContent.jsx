@@ -1,50 +1,7 @@
-import React, { useState } from "react";
-import InteractiveTools from "./InteractiveTools";
-import Courses from "./Courses";
-import Resources from "./Resources";
-import Progress from "./Progress";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const DashboardContent = () => {
-  const [activeSection, setActiveSection] = useState("default");
-
-  const renderContent = () => {
-    switch (activeSection) {
-      case "interactive-tools":
-        return <InteractiveTools />;
-      case "courses":
-        return <Courses />;
-      case "resources":
-        return <Resources />;
-      case "progress":
-        return <Progress />;
-      default:
-        return (
-          <div className="card-container">
-            <div className="card" onClick={() => setActiveSection("interactive-tools")}>
-              <img src="images/toolkit.png" alt="Tools Icon" className="card-icon" />
-              <h2>Interactive Tools</h2>
-              <p>Play language games, practice conversation and pronunciation.</p>
-            </div>
-            <div className="card" onClick={() => setActiveSection("courses")}>
-              <img src="images/coursesicon.png" alt="Courses Icon" className="card-icon" />
-              <h2>Courses and Lessons</h2>
-              <p>Explore grammar, vocabulary, writing, and more.</p>
-            </div>
-            <div className="card" onClick={() => setActiveSection("resources")}>
-              <img src="images/resources.png" alt="Resources Icon" className="card-icon" />
-              <h2>Resources</h2>
-              <p>Access dictionaries, e-books, infographics, and podcasts.</p>
-            </div>
-            <div className="card" onClick={() => setActiveSection("progress")}>
-              <img src="images/progress.png" alt="Progress Icon" className="card-icon" />
-              <h2>Assessment and Progress Tracking</h2>
-              <p>Track your learning with quizzes, tests, and certificates.</p>
-            </div>
-          </div>
-        );
-    }
-  };
-
   return (
     <div className="content">
       <div className="top-bar">
@@ -60,8 +17,37 @@ const DashboardContent = () => {
         </div>
       </div>
 
-      {/* Render the dynamic content based on activeSection */}
-      {renderContent()}
+      {/* Main Dashboard Links */}
+      <div className="card-container">
+        <div className="card">
+          <Link to="interactive-tools">
+            <img src="images/toolkit.png" alt="Tools Icon" className="card-icon" />
+            <h2>Interactive Tools</h2>
+            <p>Play language games, practice conversation and pronunciation.</p>
+          </Link>
+        </div>
+        <div className="card">
+          <Link to="courses">
+            <img src="images/coursesicon.png" alt="Courses Icon" className="card-icon" />
+            <h2>Courses and Lessons</h2>
+            <p>Explore grammar, vocabulary, writing, and more.</p>
+          </Link>
+        </div>
+        <div className="card">
+          <Link to="resources">
+            <img src="images/resources.png" alt="Resources Icon" className="card-icon" />
+            <h2>Resources</h2>
+            <p>Access dictionaries, e-books, infographics, and podcasts.</p>
+          </Link>
+        </div>
+        <div className="card">
+          <Link to="progress">
+            <img src="images/progress.png" alt="Progress Icon" className="card-icon" />
+            <h2>Assessment and Progress Tracking</h2>
+            <p>Track your learning with quizzes, tests, and certificates.</p>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
