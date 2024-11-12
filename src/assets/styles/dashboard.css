@@ -1,5 +1,13 @@
+
 p {
     font-family: 'Nunito';
+    color:#333;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color:#333;
 }
 /* Container for the sidebar and content */
 .dashboard-page {
