@@ -1,0 +1,94 @@
+Full Transcription:
+My name is. I am. My name is Sheikh Srivas. I am third year student at Satar university.
+
+Word-by-Word Breakdown:
+Word: My
+  Start Time: 11800 ms
+  End Time: 11912 ms
+  Confidence: 0.89306
+
+Word: name
+  Start Time: 11912 ms
+  End Time: 12048 ms
+  Confidence: 0.99973
+
+Word: is.
+  Start Time: 12048 ms
+  End Time: 12612 ms
+  Confidence: 0.99296
+
+Word: I
+  Start Time: 13265 ms
+  End Time: 13577 ms
+  Confidence: 0.82218
+
+Word: am.
+  Start Time: 13601 ms
+  End Time: 14165 ms
+  Confidence: 0.94277
+
+Word: My
+  Start Time: 15505 ms
+  End Time: 15841 ms
+  Confidence: 0.90934
+
+Word: name
+  Start Time: 15873 ms
+  End Time: 15993 ms
+  Confidence: 0.99911
+
+Word: is
+  Start Time: 16009 ms
+  End Time: 16137 ms
+  Confidence: 0.98546
+
+Word: Sheikh
+  Start Time: 16161 ms
+  End Time: 16457 ms
+  Confidence: 0.15511
+
+Word: Srivas.
+  Start Time: 16481 ms
+  End Time: 16993 ms
+  Confidence: 0.27079
+
+Word: I
+  Start Time: 17049 ms
+  End Time: 17169 ms
+  Confidence: 0.99835
+
+Word: am
+  Start Time: 17177 ms
+  End Time: 17369 ms
+  Confidence: 0.70582
+
+Word: third
+  Start Time: 17417 ms
+  End Time: 17625 ms
+  Confidence: 0.9928
+
+Word: year
+  Start Time: 17665 ms
+  End Time: 17913 ms
+  Confidence: 0.99908
+
+Word: student
+  Start Time: 17969 ms
+  End Time: 18225 ms
+  Confidence: 0.9933
+
+Word: at
+  Start Time: 18265 ms
+  End Time: 18441 ms
+  Confidence: 0.99517
+
+Word: Satar
+  Start Time: 18473 ms
+  End Time: 18953 ms
+  Confidence: 0.22918
+
+Word: university.
+  Start Time: 19009 ms
+  End Time: 19105 ms
+  Confidence: 0.99996
+
