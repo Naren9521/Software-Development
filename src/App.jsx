@@ -11,8 +11,6 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<AuthPage />} />
         <Route path="/contact" element={<Contact />} />
-        
-        {/* Define nested routes within DashboardPage */}
         <Route path="/dashboard/*" element={<DashboardPage />} />
       </Routes>
     </Router>
