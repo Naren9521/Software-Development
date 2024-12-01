@@ -17,7 +17,6 @@ const DashboardContent = () => {
         </div>
       </div>
 
-      {/* Main Dashboard Links */}
       <div className="card-container">
         <div className="card">
           <Link to="interactive-tools">

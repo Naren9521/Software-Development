@@ -15,7 +15,7 @@ const Resources = () => {
           </div>
         </div>
       </div>
-    <div className="card-container">
+    <div className="interactive-card-container">
       <div className="card">
         <h2>Dictionary</h2>
         <p>Look up words in our extensive dictionary.</p>

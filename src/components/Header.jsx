@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Import Link for routing
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -8,11 +8,13 @@ const Header = () => {
         <i className="fas fa-broadcast-tower"></i> GramAi
       </div>
       <nav>
-        <Link to="/">Home</Link>          {/* Use Link instead of a */}
-        <Link to="/about">About</Link>    {/* Link to About */}
-        <Link to="/features">Features</Link>  {/* Link to Features */}
-        <Link to="/contact">Contact</Link>    {/* Link to Contact */}
-        <Link className="join-now" to="/login">Join Now</Link> {/* Link to dashboard */}
+        <NavLink to="/" activeClassName="active">Home</NavLink>
+        <NavLink to="/about" activeClassName="active">About</NavLink>
+        <NavLink to="/features" activeClassName="active">Features</NavLink>
+        <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+        <NavLink className="join-now" to="/login" activeClassName="active">
+          Join Now
+        </NavLink>
       </nav>
     </header>
   );

@@ -1,14 +1,17 @@
-
+/* Global styles */
 p {
     font-family: 'Nunito';
-    color:#333;
+    color: #333;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h2{
-    color:#333;
+
+h2 {
+    color: #333;
 }
+
 /* Container for the sidebar and content */
 .dashboard-page {
     display: flex; /* Use flexbox for layout */
@@ -16,7 +19,7 @@ h2{
 }
 
 .sidebar {
-    width: 250px;
+    width: 314px;
     background-color: #ffccaa; /* Slightly darker peach */
     padding: 20px;
     display: flex;
@@ -83,7 +86,6 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-bottom: 60px;
 }
 
@@ -122,8 +124,11 @@ h2{
     font-size: 24px;
     margin-right: 10px;
 }
-.interactive-card-container{
+
+/* Layout and style for the interactive card container */
+.interactive-card-container {
     height: 470px;
+    width: 1100px;
     background-color: #c8dbff;
     border-radius: 10px;
     padding: 50px;
@@ -131,6 +136,8 @@ h2{
     flex-wrap: wrap;
     gap: 20px;
 }
+
+/* Layout for card containers */
 .card-container {
     height: 470px;
     background-color: #c8dbff;
@@ -141,6 +148,7 @@ h2{
     gap: 20px;
 }
 
+/* Style for individual cards */
 .card {
     background-color: #ffffff; /* Clean white card */
     padding: 20px;
@@ -155,12 +163,12 @@ h2{
 }
 
 .card:hover {
-    background-color: #c2d4f7; /* Subtle hover effect */
+    background-color: #c2d4f7;
     cursor: pointer;
 }
 
 .card img.card-icon {
-    width: 50px; /* Adjust size as needed */
+    width: 50px;
     height: 50px;
     margin-bottom: 10px;
     display: block;
@@ -168,6 +176,7 @@ h2{
     margin-right: auto;
 }
 
+/* Profile hover effect */
 .profile:hover {
     cursor: pointer;
 }

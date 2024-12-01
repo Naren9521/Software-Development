@@ -1,16 +1,11 @@
-import React, { useState } from 'react';
-import PronunciationTrainer from './PronounciationTrainer';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import PronunciationTrainer from "./PronounciationTrainer";
 
 const InteractiveTools = () => {
-  const [activeTool, setActiveTool] = useState(null);
-
-  const handleClick = (tool) => {
-    setActiveTool(tool);
-  };
-
   return (
     <div className="content">
-    <div className="top-bar">
+      <div className="top-bar">
         <div className="heading">
           <h1>Learn from the best</h1>
         </div>
@@ -22,23 +17,29 @@ const InteractiveTools = () => {
           </div>
         </div>
       </div>
-    <div className="interactive-card-container">
-      {activeTool === 'PronunciationTrainer' ? (
-        <PronunciationTrainer />
-      ) : (
-        <>
-          <div className="card" onClick={() => handleClick('PronunciationTrainer')}>
-            <img src="/images/pronounciation.png" alt="Tools Icon" className="card-icon" />
-            <h2>Pronunciation Trainer</h2>
-            <p>Practice your pronunciation with audio feedback.</p>
-          </div>
-          <div className="card">
-            <h2>Language Games</h2>
-            <p>Engage in fun language learning games.</p>
-          </div>
-        </>
-      )}
-    </div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="interactive-card-container">
+              <Link to="pronunciation-trainer" className="card">
+                <img
+                  src="../images/pronounciation.png"
+                  alt="Pronunciation Icon"
+                  className="card-icon"
+                />
+                <h2>Pronunciation Trainer</h2>
+                <p>Practice pronunciation with audio feedback.</p>
+              </Link>
+              <div className="card">
+                <h2>Language Games</h2>
+                <p>Engage in fun language learning games.</p>
+              </div>
+            </div>
+          }
+        />
+        <Route path="pronunciation-trainer" element={<PronunciationTrainer />} />
+      </Routes>
     </div>
   );
 };

@@ -12,13 +12,15 @@ const DashboardPage = () => {
   return (
     <div className="dashboard-page">
       <Sidebar />
-      <Routes>
-        <Route path="/" element={<DashboardContent />} />
-        <Route path="interactive-tools" element={<InteractiveTools />} />
-        <Route path="courses" element={<Courses />} />
-        <Route path="resources" element={<Resources />} />
-        <Route path="progress" element={<Progress />} />
-      </Routes>
+      <div className="dashboard-main">
+        <Routes>
+          <Route path="/" element={<DashboardContent />} />
+          <Route path="interactive-tools/*" element={<InteractiveTools />} />
+          <Route path="courses" element={<Courses />} />
+          <Route path="resources" element={<Resources />} />
+          <Route path="progress" element={<Progress />} />
+        </Routes>
+      </div>
     </div>
   );
 };
