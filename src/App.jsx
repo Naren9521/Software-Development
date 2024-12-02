@@ -15,6 +15,7 @@ function App() {
         <Route path="/dashboard/*" element={<DashboardPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/profile" element={<Profile/>}/>
+        {/* <Route path='/' element={<Progress/>}/> */}
       </Routes>
     </Router>
   );
