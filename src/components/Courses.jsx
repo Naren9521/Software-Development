@@ -1,6 +1,11 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const Courses = () => {
+  const navigate = useNavigate();
+
+  const handleProfileClick = () => {
+    navigate('/profile')
+  };
   return (
     <div className="content">
       <div className="top-bar">
@@ -9,7 +14,7 @@ const Courses = () => {
         </div>
         <div className="right-section">
           <button className="upgrade-btn">Upgrade to Premium</button>
-          <div className="profile">
+          <div className="profile" onClick={handleProfileClick}>
             <i className="fas fa-user-circle"></i>
             <span>Profile</span>
           </div>

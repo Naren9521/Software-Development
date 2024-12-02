@@ -3,6 +3,8 @@ import LandingPage from './pages/LandingPage';
 import DashboardPage from './pages/DashboardPage';
 import Contact from './components/Contact';
 import AuthPage from './pages/AuthPage';
+import Profile from './components/Profile';
+import Progress from './components/Progress';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path="/login" element={<AuthPage />} />
         <Route path="/dashboard/*" element={<DashboardPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/profile" element={<Profile/>}/>
+        {/* <Route path='/' element={<Progress/>}/> */}
       </Routes>
     </Router>
   );

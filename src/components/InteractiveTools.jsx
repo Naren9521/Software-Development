@@ -1,8 +1,13 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import PronunciationTrainer from "./PronounciationTrainer";
-
+import { useNavigate } from "react-router-dom";
 const InteractiveTools = () => {
+  const navigate = useNavigate();
+
+  const handleProfileClick = () => {
+    navigate('/profile')
+  };
   return (
     <div className="content">
       <div className="top-bar">
@@ -11,7 +16,7 @@ const InteractiveTools = () => {
         </div>
         <div className="right-section">
           <button className="upgrade-btn">Upgrade to Premium</button>
-          <div className="profile">
+          <div className="profile" onClick={handleProfileClick}>
             <i className="fas fa-user-circle"></i>
             <span>Profile</span>
           </div>
