@@ -9,13 +9,25 @@ const MissionSection = () => {
   
         <div className="cards">
           <div className="card">
-            <div className="card-text">Card 1: Effective Communication</div>
+            <div className="card-text">
+            <img src="/images/effactive_com.jpg" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <br></br>
+            A person should be able to communicate cofidently
+            </div>
           </div>
           <div className="card">
-            <div className="card-text">Card 2: Personal Success</div>
+            <div className="card-text">
+            <img src="/images/personal_suc.jpeg" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <br></br>
+            Personal success: stay confident, learn more, keep trying.
+            </div>
           </div>
           <div className="card">
-            <div className="card-text">Card 3: Professional Success</div>
+            <div className="card-text">
+            <img src="/images/Success_pro.png" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <br></br>
+            professional success: stay focused, build connections.
+            </div>
           </div>
         </div>
       </div>
