@@ -1,0 +1,149 @@
+Full Transcription:
+I am a student of Sitar University and today I am here to present my views on topic pronunciation and I am working to make my pronunciation tenor better.
+
+Word-by-Word Breakdown:
+Word: I
+  Start Time: 760 ms
+  End Time: 872 ms
+  Confidence: 0.88579
+
+Word: am
+  Start Time: 872 ms
+  End Time: 1008 ms
+  Confidence: 0.6021
+
+Word: a
+  Start Time: 1008 ms
+  End Time: 1168 ms
+  Confidence: 0.99354
+
+Word: student
+  Start Time: 1168 ms
+  End Time: 1352 ms
+  Confidence: 0.99986
+
+Word: of
+  Start Time: 1352 ms
+  End Time: 1512 ms
+  Confidence: 0.99967
+
+Word: Sitar
+  Start Time: 1513 ms
+  End Time: 1953 ms
+  Confidence: 0.61827
+
+Word: University
+  Start Time: 2009 ms
+  End Time: 2605 ms
+  Confidence: 0.99974
+
+Word: and
+  Start Time: 2905 ms
+  End Time: 3265 ms
+  Confidence: 0.99858
+
+Word: today
+  Start Time: 3305 ms
+  End Time: 3481 ms
+  Confidence: 0.99725
+
+Word: I
+  Start Time: 3513 ms
+  End Time: 3681 ms
+  Confidence: 0.77086
+
+Word: am
+  Start Time: 3713 ms
+  End Time: 3809 ms
+  Confidence: 0.57594
+
+Word: here
+  Start Time: 3817 ms
+  End Time: 3937 ms
+  Confidence: 0.99979
+
+Word: to
+  Start Time: 3961 ms
+  End Time: 4097 ms
+  Confidence: 0.9981
+
+Word: present
+  Start Time: 4121 ms
+  End Time: 4425 ms
+  Confidence: 0.82883
+
+Word: my
+  Start Time: 4505 ms
+  End Time: 4721 ms
+  Confidence: 0.99983
+
+Word: views
+  Start Time: 4753 ms
+  End Time: 5001 ms
+  Confidence: 0.99936
+
+Word: on
+  Start Time: 5033 ms
+  End Time: 5465 ms
+  Confidence: 0.99962
+
+Word: topic
+  Start Time: 5585 ms
+  End Time: 6209 ms
+  Confidence: 0.99944
+
+Word: pronunciation
+  Start Time: 6337 ms
+  End Time: 7097 ms
+  Confidence: 0.32031
+
+Word: and
+  Start Time: 7161 ms
+  End Time: 7361 ms
+  Confidence: 0.99921
+
+Word: I
+  Start Time: 7393 ms
+  End Time: 7537 ms
+  Confidence: 0.82459
+
+Word: am
+  Start Time: 7561 ms
+  End Time: 7697 ms
+  Confidence: 0.55767
+
+Word: working
+  Start Time: 7721 ms
+  End Time: 7977 ms
+  Confidence: 0.99964
+
+Word: to
+  Start Time: 8041 ms
+  End Time: 8265 ms
+  Confidence: 0.99952
+
+Word: make
+  Start Time: 8305 ms
+  End Time: 8529 ms
+  Confidence: 0.99981
+
+Word: my
+  Start Time: 8577 ms
+  End Time: 8953 ms
+  Confidence: 0.9996
+
+Word: pronunciation
+  Start Time: 9049 ms
+  End Time: 9569 ms
+  Confidence: 0.45845
+
+Word: tenor
+  Start Time: 9617 ms
+  End Time: 9969 ms
+  Confidence: 0.34496
+
+Word: better.
+  Start Time: 10017 ms
+  End Time: 10105 ms
+  Confidence: 0.99248
+
