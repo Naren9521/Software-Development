@@ -10,7 +10,6 @@ const InteractiveTools = () => {
           <h1>Learn from the best</h1>
         </div>
         <div className="right-section">
-          <button className="upgrade-btn">Upgrade to Premium</button>
           <div className="profile">
             <i className="fas fa-user-circle"></i>
             <span>Profile</span>
@@ -28,7 +27,7 @@ const InteractiveTools = () => {
                   alt="Pronunciation Icon"
                   className="card-icon"
                 />
-                <h2>Pronunciation Trainer</h2>
+                <h2>Pronunciation Check</h2>
                 <p>Practice pronunciation with audio feedback.</p>
               </Link>
               <div className="card">
