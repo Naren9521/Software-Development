@@ -1,1 +1,3 @@
 API_KEY_ASSEMBLYAI = '57e04ff3e55347c08f6b3d147bdc878f'
+GROQ_API_KEY = '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'
+prompt = "You are given a response from a transcription api with start time , end time and confidence score of words spoken your job is to analyse the data and give response in json as /{fluency_score = integer out of 100 based on start time and end time of the words,pronounciation score =  based on all confidence scores ,pronounciation:[ set  of words spoken wrong based on confidence score if it is less then 0.85 and no words repeated in it]'} , I dont want anything just this json no extra message then json"

@@ -12,7 +12,7 @@ const Sidebar = () => {
         <i className="fas fa-file-alt"></i> Courses
       </NavLink>
       <NavLink to="/dashboard/interactive-tools" className="nav-item">
-        <i className="fas fa-tools"></i> Tools
+          <i className="fas fa-tools"></i> Tools
       </NavLink>
       <NavLink to="/dashboard/resources" className="nav-item">
         <i className="fas fa-book"></i> Resources
