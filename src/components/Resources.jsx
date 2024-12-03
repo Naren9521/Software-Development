@@ -174,7 +174,6 @@ const Resources = () => {
           <h1>Learn from the best</h1>
         </div>
         <div className="right-section">
-          <button className="upgrade-btn">Upgrade to Premium</button>
           <div className="profile">
             <i className="fas fa-user-circle"></i>
             <span>Profile</span>

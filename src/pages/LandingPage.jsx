@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Contact from '../components/Contact';
 import MainContent from '../components/MainContent';
 import MissionSection from '../components/MissionSection';
 import Footer from '../components/Footer';
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <MainContent />
       <MissionSection />
       <Footer />
+      {/* <Contact/> */}
     </>
   );
 };
