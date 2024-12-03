@@ -6,6 +6,8 @@ import InteractiveTools from '../components/InteractiveTools';
 import Courses from '../components/Courses';
 import Resources from '../components/Resources';
 import Progress from '../components/Progress';
+import Dictionary from '../components/Dictionary';
+import EbooksPage from '../components/EbooksPage';
 import '../assets/styles/dashboard.css';
 
 const DashboardPage = () => {
@@ -18,6 +20,8 @@ const DashboardPage = () => {
           <Route path="interactive-tools/*" element={<InteractiveTools />} />
           <Route path="courses" element={<Courses />} />
           <Route path="resources" element={<Resources />} />
+          <Route path="resources/dictionary" element={<Dictionary />} />
+          <Route path="resources/ebooksPage" element={<EbooksPage />} />
           <Route path="progress" element={<Progress />} />
         </Routes>
       </div>
