@@ -26,3 +26,6 @@ To run the GramAI platform locally, follow the steps below:
 
    ```bash
    git clone https://github.com/yourusername/GramAI.git
+
+Deployed Link : https://gramaianewwaytolearn.netlify.app/ 
+
