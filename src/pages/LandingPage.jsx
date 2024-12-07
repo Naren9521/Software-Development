@@ -11,7 +11,6 @@ const LandingPage = () => {
       <MainContent />
       <MissionSection />
       <Footer />
-      {/* <Contact/> */}
     </>
   );
 };

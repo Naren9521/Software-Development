@@ -1,3 +1,6 @@
+import effactive from '/assets/images/effactive_com.jpg'
+import personalsucc from '/assets/images/personal_suc.jpeg.jpg'
+import successpro from '/assets/images/Success_pro.png'
 const MissionSection = () => {
     return (
       <div className="mission-container">
@@ -10,21 +13,21 @@ const MissionSection = () => {
         <div className="cards">
           <div className="card">
             <div className="card-text">
-            <img src="/images/effactive_com.jpg" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <img src={effactive} alt="Illustration representing tailored coaching" width="200" height="200"></img>
             <br></br>
             A person should be able to communicate cofidently
             </div>
           </div>
           <div className="card">
             <div className="card-text">
-            <img src="/images/personal_suc.jpeg" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <img src={personalsucc} alt="Illustration representing tailored coaching" width="200" height="200"></img>
             <br></br>
             Personal success: stay confident, learn more, keep trying.
             </div>
           </div>
           <div className="card">
             <div className="card-text">
-            <img src="/images/Success_pro.png" alt="Illustration representing tailored coaching" width="200" height="200"></img>
+            <img src={successpro} alt="Illustration representing tailored coaching" width="200" height="200"></img>
             <br></br>
             professional success: stay focused, build connections.
             </div>

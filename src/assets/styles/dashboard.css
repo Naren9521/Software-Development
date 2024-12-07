@@ -17,7 +17,63 @@ h2 {
     display: flex; /* Use flexbox for layout */
     height: 100vh; /* Full viewport height */
 }
-
+.profile-section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  .profile-section button {
+    background-color: #ff6b3d; /* Primary blue color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  .profile-section button:hover {
+    background-color: #ff6b3d; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  .profile-section button:active {
+    background-color: #ff6b3d; /* Even darker blue for active state */
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  .profile-section h2 {
+    margin-top: 0;
+  }
+  
+  .profile-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-section ul li {
+    margin: 15px 0;
+  }
+  
+  .profile-section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .profile {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 /* Sidebar styles */
 .sidebar {
     position: fixed; /* Keeps the sidebar fixed */
