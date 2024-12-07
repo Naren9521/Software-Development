@@ -30,16 +30,19 @@ const EbooksPage = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(`/api/get-summary?book=${searchTerm}`);
+      const response = await fetch(`http://localhost:8000/get-summary?book=${searchTerm}`);
       const data = await response.json();
-      setSummary(data.summary);
+      if (response.ok) {
+        setSummary(data.summary);
+      } else {
+        setSummary('Book not found');
+      }
     } catch (error) {
       setSummary('Error fetching summary');
     } finally {
       setLoading(false);
     }
   };
-
   return (
     <div className="content"> {/* Reused global wrapper */}
       {/* Global top bar */}
@@ -48,7 +51,6 @@ const EbooksPage = () => {
           <h1>Explore and Learn</h1>
         </div>
         <div className="right-section">
-          <button className="upgrade-btn">Upgrade to Premium</button>
           <div className="profile">
             <i className="fas fa-user-circle"></i>
             <span>Profile</span>

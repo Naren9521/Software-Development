@@ -1,3 +1,6 @@
+import boygirltalking from '../../public/assets/images/boyandgirltalking.jpg'
+import image2 from '../../public/assets/images/image2.jpg'
+import image3 from '../../public/assets/images/image3.png'
 const MainContent = () => {
     return (
       <div className="containers">
@@ -12,7 +15,7 @@ const MainContent = () => {
             </div>
           </div>
           <div className="image-content">
-          <img src="images/boyandgirltalking.jpg" alt="Illustration of two people communicating" width="600" height="400"></img>
+          <img src={boygirltalking} alt="Illustration of two people communicating" width="600" height="400"></img>
             {/* <img src="/images/boyandgirltalking.jpg" alt="People Communicating" /> */}
           </div>
         </div>
@@ -20,7 +23,7 @@ const MainContent = () => {
         <div className="main-content reversed">
           <div className="image-content">
           
-            <img src="/images/image2.jpg" alt="Illustration representing tailored coaching" width="600" height="400"></img>
+            <img src={image2}alt="Illustration representing tailored coaching" width="600" height="400"></img>
           </div>
           <div className="text-content">
             <p>Tailored Coaching for Exceptional Communication</p>
@@ -43,7 +46,7 @@ const MainContent = () => {
             </div>
           </div>
           <div className="image-content">
-            <img src="/images/image3.png" alt="Illustration showing personalized learning and feedback" width="600" height="400"></img>
+            <img src={image3} alt="Illustration showing personalized learning and feedback" width="600" height="400"></img>
           </div>
         </div>
   
