@@ -2,21 +2,21 @@ from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 from urllib.parse import quote_plus
 
-# Encode username and password
+# Encode the username and password to make them safe for use in the MongoDB URI
 username = quote_plus("su-22012")
 password = quote_plus("Narendra123@#")
 
-# Construct the URI
+# Construct the URI to connect to the MongoDB cluster
 uri = f"mongodb+srv://{username}:{password}@gramai.jc23s.mongodb.net/?retryWrites=true&w=majority&appName=GramAi"
 
-# Create a new client and connect to the server
+# Create a new MongoClient instance and connect to the server with the specified URI
 client = MongoClient(uri, server_api=ServerApi('1'))
 
-# Access the database and collection
-db = client['gramai_database']  # Replace with your database name
-collection = db['pronunciation_texts']  # Replace with your collection name
+# Access the MongoDB database and collection
+db = client['gramai_database']  # Replace 'gramai_database' with your actual database name
+collection = db['pronunciation_texts']  # Replace 'pronunciation_texts' with your actual collection name
 
-# Define the entries for easytext, mediumtext, and hardtext
+# Define the data to be inserted, with entries for 'easytext', 'mediumtext', and 'hardtext'
 data_to_insert = [
     {"easytext": "I like to play football in the park.", "mediumtext": "She enjoys reading books about history and science.", "hardtext": "The economic development of developing nations requires careful consideration of various social, political, and environmental factors."},
     {"easytext": "The sun is shining brightly today.", "mediumtext": "The weather is quite unpredictable this time of year.", "hardtext": "The rapid advancement of artificial intelligence presents both challenges and opportunities for the workforce in the coming decades."},
@@ -43,7 +43,8 @@ data_to_insert = [
 
 # Insert the data into the MongoDB collection
 try:
-    collection.insert_many(data_to_insert)
+    collection.insert_many(data_to_insert)  # Insert the data into the collection
     print("Data inserted successfully!")
 except Exception as e:
+    # Handle exceptions during data insertion
     print(f"An error occurred: {e}")
