@@ -29,6 +29,3 @@ To run the GramAI platform locally, follow the steps below:
 
 Deployed Link : https://gramaianewwaytolearn.netlify.app/ 
 
-
-
-Loom Video Link - https://www.loom.com/share/11c527e406774ec9ba1f40d7eaf862ca?sid=4dee8fca-fe7a-4867-aa09-74561221ea1f
